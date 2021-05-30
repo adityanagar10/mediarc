@@ -1,0 +1,34 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+
+}
+.form-header{
+  text-align: center;
+  margin-bottom: 5%;
+}
+.header{
+  padding: 5% 7%;
+  background-color: #8c82fc;
+  text-align: center;
+  color: #fff;
+
+}
+.edit-button{
+  text-align: center;
+  margin-top: 2%;
+}
+.form-header{
+  color: #6c757d;
+}
+/* footer */
+#footer{
+  text-align: center;
+  padding: 3% 5%;
+}
+.footer-icon{
+  margin: 3% 0.5% 2%;
+}
+#footer p{
+  color: #8f8f8f;
+}

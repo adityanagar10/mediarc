@@ -1,0 +1,47 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f6f6f6;
+
+}
+.header{
+  padding: 3% 5%;
+  background-color: #8c82fc;
+  text-align: center;
+  color: #fff;
+
+}
+.header h1{
+
+  font-family: "Ubuntu";
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+.header p{
+  font-size: 1.5rem;
+}
+
+.car-align{
+  text-align: center;
+}
+.img-edit{
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9%;
+
+}
+
+.group-edit{
+  padding: 0 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.card-title{
+    font-family: "Ubuntu";
+    font-weight: bold;
+}

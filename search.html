@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Consult a doctor</title>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style_doc_search.css">
+
+
+
+  <!-- Font Awesome -->
+  <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
+    integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous">
+  </script>
+
+
+
+</head>
+
+<body>
+  <div class="header">
+    <h1>MediArc</h1>
+    <p>Health is the condition of wisdom, and the sign is cheerfulness, - an open and noble temper.</p>
+  </div>
+  <div class="card-group group-edit">
+    <div class="card">
+
+      <div class="card-body">
+        <h5 class="card-title">Consult with Doctor</h5>
+        <form action="/search" method="POST">
+          <label for="symptom">Tell us your symptom or health problem</label>
+          <input type="text" name="problem" class="form-control" id="symptom" placeholder="Eg: fever, headache">
+          <small id="symptom-help" class="form-text text-muted">Min 4 characters</small>
+          <label for="city">City</label>
+          <input type="text" name="city" class="form-control" id="city" placeholder="Enter your city">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+      </div>
+    </div>
+    <div class="card">
+
+      <div class="card-body car-align">
+        <div id="carousel-slides" class="carousel slide" data-ride="carousel" data-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-40 center" src="images/qualified_doctors.png" alt="qualified doctors">
+              <h5>Verified doctors</h5>
+
+            </div>
+
+
+            <div class="carousel-item">
+              <img class="d-block w-40 center" src="images/private.png" alt="private and secure">
+              <h5>Private and Secure</h5>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-40 center" src="images/ chats.png" alt="free follow ups">
+              <h5>Free Follow-Up</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+  font-family: "Montserrat";
+  background-color: #fff;
+}
+
+#title {
+  background-color: #8c82fc;
+  color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+}
+#photos{
+  padding: 3% 15%;
+}
+.slogan{
+  font-size: 5rem;
+  padding: 7%;
+}
+
+.paragraph{
+  font-size: 1.25rem;
+  padding-bottom: 5%;
+}
+
+.image_grid{
+  text-align: center;
+}
+
+.images{
+  width: 612px;
+  height: 344px;
+  border-radius: 2%;
+  padding-bottom: 10px;
+}
+
+.photos_title{
+  font-size: 2rem;
+}
+
+.photos_content{
+  font-size: 1rem;
+}
+
+.navbar {
+  padding-bottom: 2%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #000;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}

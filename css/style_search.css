@@ -1,0 +1,19 @@
+.search{
+    width: 85%;
+    padding: 12px 20px;
+    margin: 20px;
+    margin-left: 7%;
+    box-sizing: border-box;
+    background-color: #8c82fc;
+    color: #fff;
+  }
+
+.btn {
+    padding: 10px 18px;
+    font-size: 15px;
+    background-color: #fff;
+  }
+
+.btn:hover{
+    background-color:  #8c82fc;
+  }

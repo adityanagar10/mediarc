@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>My Profile</title>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- style sheets link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style_doc_reg.css">
+
+   <!-- Font Awesome -->
+     <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <div class="header">
+     <h1>MediArc</h1>
+     <p>Greatest gift you can give your family and the world is a healthy you.</p>
+  </div>
+  <form action="/doctorregistration" method="POST" id="form-edit">
+    <div class="form-header">
+      <h1>Doctor Registration</h1>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="first-name">First Name</label>
+        <input type="textl" class="form-control" name="f_name" id="first-name" placeholder="First Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="last-name">Last Name</label>
+        <input type="text" class="form-control" name="l_name" id="last-name" placeholder="Last Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone number</label>
+      <input type="number" class="form-control" name="phone_number" id="phone" placeholder="Enter contact details">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" name="email_doctor" id="email" placeholder="Enter-email@xyz.com">
+    </div>
+
+    <div class="form-group">
+      <label for="city">City</label>
+      <input type="text" name="address" class="form-control" id="city" placeholder="Enter your Address">
+    </div>
+
+    <div class="form-group">
+      <label for="clinic-address">Clinic City</label>
+      <input type="text" class="form-control" name="clinic_city" id="clinic-Address" placeholder="Enter Clinic City">
+    </div>
+        <div class="form-group">
+          <label for="degree">Degree</label>
+          <input type="text" class="form-control" name="degree" id="degree" placeholder="Enter degree">
+        </div>
+
+        <div class="form-group">
+          <label for="specialisation">Specialisation</label>
+          <input type="text" class="form-control" name="specialisation" id="specialisation" placeholder="Enter Specialisation">
+        </div>
+    <div class="form-group">
+      <div class="edit-button">
+        <button type="submit" class="btn btn-primary">REGISTER</button>
+      </div>
+    </div>
+
+
+  </form>
+
+  <footer id="footer">
+    <i class="footer-icon fab fa-twitter"></i>
+    <i class="footer-icon fab fa-facebook-f"></i>
+    <i class="footer-icon fab fa-instagram"></i>
+    <i class="footer-icon fas fa-envelope"></i>
+
+    <p>© Copyright 2021 TechNovo</p>
+
+  </footer>
+</body>
+
+</html>

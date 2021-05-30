@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat";
+  background-color: #fff;
+}
+
+#title {
+  background-color: #8c82fc;
+  color: #fff;
+}
+
+#crads {
+  padding: 3% 15%;
+}
+
+#covid{
+  padding: 3% 15%;
+  background-color: #8c82fc;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#problems{
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-bottom: 2%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #000;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin: 5% 3% 5% 0%;
+  padding: 10px 18px;
+  font-size: 35px;
+}
+
+.covidlinks{
+  color: #fff;
+}
+
+.slogan{
+  font-size: 4.5rem;
+  padding-bottom: 10%;
+}
+
+#docimg {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+  padding: 0 20px;
+  position: relative;
+  left: 350px;
+}
+
+.icon {
+  color: #8c82fc;
+}
+
+.icon:hover {
+  color: #fff;
+}
+
+#features {
+  padding: 7% 5%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icons {
+  color: #8c82fc;
+  margin: 20px;
+  padding-bottom: 5rem;
+}
+
+.icons:hover {
+  color: #ff9de2;
+}
+
+.doccc {
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+}
+
+.heading1 {
+  font-size: 1.5rem;
+}
+.teeth-card {
+  text-align: center;
+  border: none;
+}
+.teeth{
+  position: relative;
+  color: #8c82fc;
+}
+.teeth:hover{
+  color: #ff9de2;
+}
+.s{
+  font-size: 2.5rem;
+
+}
+.p{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.bttn {
+  margin: 5% 3% 5% 0%;
+}
+
+.covid-image{
+  width: 535px;
+  height: auto;
+  border-radius: 2%;
+}
+
+.bcn{
+  width: 200px;
+}
+
+.covidc{
+  background-color: #8c82fc;
+  border: none;
+}
+.corona-1{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: semi-bold;
+}
+
+.covidtitle{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: semi-bold;
+  padding-bottom: 15px;
+}
+
+.handwash{
+  width: 535px;
+  height: auto;
+  border-radius: 2%;
+}
+
+.footer-text{
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#footer{
+  padding: 7% 5%;
+  text-align: center;
+}

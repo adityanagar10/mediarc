@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>My Profile</title>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+  <!-- style sheets link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles_profile.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
+    integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous">
+  </script>
+
+</head>
+
+<body>
+  <div class="header">
+    <h1>MediArc</h1>
+    <p>Greatest gift you can give your family and the world is a healthy you.</p>
+  </div>
+  <form action="/profile" method="POST" id="form-edit">
+    <div class="form-header">
+      <h1>My Profile</h1>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="first-name">First Name</label>
+        <input name="fname" type="textl" class="form-control" id="first-name" placeholder="<%= profile.fname %>">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="last-name">Last Name</label>
+        <input name="lname" type="text" class="form-control" id="last-name" placeholder="<%= profile.lname %>">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone number</label>
+      <input name="phone" type="number" class="form-control" id="phone" placeholder="<%= profile.phoneNumber %>">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input name="email" type="email" class="form-control" id="email" placeholder="<%= profile.email %>">
+    </div>
+    <div class="form-group">
+      <label for="password">Enter Password</label>
+      <input name="password" type="password" form-control" id="password" placeholder="Enter Password">
+    </div>
+    <div class="form-group">
+      <label for="re-password">Confirm Password</label>
+      <input type="text" class="form-control" id="re-password" placeholder="Enter your Password again">
+    </div>
+    <div class="form-group">
+      <div class="form-group">
+        <label for="Address">Address</label>
+        <input name="address" type="text" class="form-control" id="Address" placeholder="<%= profile.adress %>">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input name="city" type="text" class="form-control" id="inputCity" placeholder="<%= profile.city %>">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <select name="state" id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option value="value1">Andhra Pradesh</option>
+            <option value="value2"> Andaman and Nicobar Islands</option>
+            <option value="value3">Arunachal Pradesh</option>
+            <option value="value4">Assam</option>
+            <option value="value5">Bihar</option>
+            <option value="value6">Chandigarh</option>
+            <option value="value7">Chhattisgarh</option>
+            <option value="value8">Dadra and Nagar Haveli</option>
+            <option value="value9">Daman and Diu</option>
+            <option value="value10">Delhi</option>
+            <option value="value11">Goa</option>
+            <option value="value12">Gujarat</option>
+            <option value="value13">Haryana</option>
+            <option value="value14"> Himachal Pradesh</option>
+            <option value="value15">Jammu and Kashmir</option>
+            <option value="value16"> Jharkhand</option>
+            <option value="value17"> Karnataka</option>
+            <option value="value18">Kerala</option>
+            <option value="value19">Lakshadweep</option>
+            <option value="value20">Madhya Pradesh</option>
+            <option value="value21">Maharashtra</option>
+            <option value="value22"> Manipur</option>
+            <option value="value23"> Meghalaya</option>
+            <option value="value24"> Mizoram</option>
+            <option value="value25"> Nagaland</option>
+            <option value="value26"> Odisha</option>
+            <option value="value27"> Punjab</option>
+            <option value="value28">Pondicherry</option>
+            <option value="value29"> Rajasthan</option>
+            <option value="value30"> Sikkim</option>
+            <option value="value31">Tamil Nadu</option>
+            <option value="value32">Telangana</option>
+            <option value="value33"> Tripura</option>
+            <option value="value34">Uttar Pradesh</option>
+            <option value="value35">Uttarakhand</option>
+            <option value="value36">West Bengal</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input name="zip" type="number" class="form-control" id="inputZip" placeholder="<%= profile.zip  %>">
+        </div>
+      </div>
+
+      <div class="form-group">
+
+      </div>
+      <div class="edit-button">
+        <button type="submit" class="btn btn-primary">Update Profile</button>
+      </div>
+
+  </form>
+  <footer id="footer">
+    <i class="footer-icon fab fa-twitter"></i>
+    <i class="footer-icon fab fa-facebook-f"></i>
+    <i class="footer-icon fab fa-instagram"></i>
+    <i class="footer-icon fas fa-envelope"></i>
+
+    <p>© Copyright 2021 TechNovo</p>
+
+  </footer>
+</body>
+
+</html>
