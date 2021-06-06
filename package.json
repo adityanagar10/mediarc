@@ -20,5 +20,13 @@
     "path": "^0.12.7",
     "popups": "^1.1.3",
     "routes": "^2.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityanagar10/mediarc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adityanagar10/mediarc/issues"
+  },
+  "homepage": "https://github.com/adityanagar10/mediarc#readme"
 }
