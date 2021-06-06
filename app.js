@@ -27,10 +27,7 @@ mongoose.connect("mongodb+srv://admin:qsvQjmPPnADSp83d@pawhelper.5qct4.mongodb.n
 const profileSchema = {
     fname: String,
     lname: String,
-    phoneNumber: {
-        type: String,
-        maxLength: 10
-    },
+    phoneNumber: Number,
     email: String,
     password: String,
     adress: String,
@@ -136,7 +133,6 @@ app.post('/doctorregistration', function (req, res) {
     const fname = req.body.f_name;
     const lname = req.body.l_name;
     const phone = req.body.phone_number;
-    const email = req.body.email_doctor;
     const address = req.body.address;
     const city = req.body.clinic_city;
     const degree = req.body.degree;

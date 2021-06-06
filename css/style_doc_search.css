@@ -16,6 +16,12 @@ body{
   height: 50px;
 }
 
+.home-image{
+  color: #fff;
+  text-decoration: none;
+  width: 2rem;
+  height: 2rem;
+}
 
 .header h1{
 

@@ -15,6 +15,13 @@ body{
 
 }
 
+.home-image{
+  color: #fff;
+  text-decoration: none;
+  width: 2rem;
+  height: 2rem;
+}
+
 .header h1{
 
   font-family: "Ubuntu";

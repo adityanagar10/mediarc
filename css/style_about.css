@@ -16,7 +16,12 @@ body {
   font-size: 5rem;
   padding: 7%;
 }
-
+.home-image{
+  color: #fff;
+  text-decoration: none;
+  width: 2rem;
+  height: 2rem;
+}
 .paragraph{
   font-size: 1.25rem;
   padding-bottom: 5%;

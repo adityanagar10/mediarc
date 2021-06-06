@@ -17,3 +17,10 @@
 .btn:hover{
     background-color:  #8c82fc;
   }
+
+  .home-image{
+    color: #fff;
+    text-decoration: none;
+    width: 2rem;
+    height: 2rem;
+  }
