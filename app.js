@@ -25,9 +25,18 @@ mongoose.connect("mongodb+srv://admin:qsvQjmPPnADSp83d@pawhelper.5qct4.mongodb.n
 });
 
 const profileSchema = {
+    
     fname: String,
+        
+
     lname: String,
     phoneNumber: Number,
+    phoneNumber: {
+        type: String,
+        required: true,
+        maxLength: 10,
+        minLength: 10
+    },
     email: String,
     password: String,
     adress: String,
