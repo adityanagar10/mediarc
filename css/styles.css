@@ -12,15 +12,16 @@ body {
   padding: 3% 15%;
 }
 
-#covid{
+#covid {
   padding: 3% 15%;
   background-color: #8c82fc;
 }
+
 .container-fluid {
   padding: 3% 15%;
 }
 
-#problems{
+#problems {
   padding: 3% 15%;
 }
 
@@ -50,11 +51,11 @@ body {
   font-size: 35px;
 }
 
-.covidlinks{
+.covidlinks {
   color: #fff;
 }
 
-.slogan{
+.slogan {
   font-size: 4.5rem;
   padding-bottom: 10%;
 }
@@ -71,6 +72,15 @@ body {
 .icon {
   color: #8c82fc;
 }
+
+.icon-dark {
+  color: #fff;
+}
+
+.icon-dark:hover {
+  color: #8c82fc;
+}
+
 
 .icon:hover {
   color: #fff;
@@ -103,69 +113,75 @@ body {
 .heading1 {
   font-size: 1.5rem;
 }
+
 .teeth-card {
   text-align: center;
   border: none;
 }
-.teeth{
+
+.teeth {
   position: relative;
   color: #8c82fc;
 }
-.teeth:hover{
+
+.teeth:hover {
   color: #ff9de2;
 }
-.s{
+
+.s {
   font-size: 2.5rem;
 
 }
-.p{
+
+.p {
   font-size: 1.5rem;
   padding-bottom: 10px;
 }
+
 .bttn {
   margin: 5% 3% 5% 0%;
 }
 
-.covid-image{
+.covid-image {
   width: 535px;
   height: auto;
   border-radius: 2%;
 }
 
-.bcn{
+.bcn {
   width: 200px;
 }
 
-.covidc{
+.covidc {
   background-color: #8c82fc;
   border: none;
 }
-.corona-1{
+
+.corona-1 {
   font-size: 2rem;
   color: #fff;
   font-weight: semi-bold;
 }
 
-.covidtitle{
+.covidtitle {
   font-size: 3rem;
   color: #fff;
   font-weight: semi-bold;
   padding-bottom: 15px;
 }
 
-.handwash{
+.handwash {
   width: 535px;
   height: auto;
   border-radius: 2%;
 }
 
-.footer-text{
-  font-size: 3rem;
-  font-weight: bold;
+.footer-text {
+  font-size: 1.5rem;
   padding: 10px;
 }
 
-#footer{
+#footer {
   padding: 7% 5%;
   text-align: center;
 }

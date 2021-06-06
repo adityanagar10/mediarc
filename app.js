@@ -1,6 +1,7 @@
 const express = require("express");
 const bp = require("body-parser");
 const mongoose = require("mongoose");
+var alert = require("alert");
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -26,7 +27,10 @@ mongoose.connect("mongodb+srv://admin:qsvQjmPPnADSp83d@pawhelper.5qct4.mongodb.n
 const profileSchema = {
     fname: String,
     lname: String,
-    phoneNumber: Number,
+    phoneNumber: {
+        type: String,
+        maxLength: 10
+    },
     email: String,
     password: String,
     adress: String,
@@ -74,8 +78,8 @@ app.post("/", function (req, res) {
                 if (foundUser.password === password) {
                     res.render("homepage");
                 } else {
-                    alert("Wrong password or email");
-                    res.render("login");
+                    alert('Helo');
+                    res.redirect("/home");
                 }
             }
         }
@@ -85,6 +89,10 @@ app.post("/", function (req, res) {
 
 
 //----------------- sign up page-----------------//
+
+app.get('/signup',function(req,res){
+    res.render("signup")
+})
 
 app.post('/signup', function (req, res) {
     const fname = req.body.fname;
@@ -178,7 +186,6 @@ app.get("/profile", function (req, res) {
             res.render("profile", {
                 profile: profiles[0]
             });
-            console.log(profiles);
         }
     })
 
@@ -188,15 +195,6 @@ app.get("/profile", function (req, res) {
 app.post("/profile", function (req, res) {
     ema = req.body.email;
     firstname = req.body.fname;
-
-    // Profile.find({email: ema}, function(err, profiles){
-    //     if(err){
-    //         console.log(err);
-    //     } else{
-    //         console.log(profiles);
-    //     }
-    // })
-
     res.redirect("/profile");
 })
 
@@ -211,8 +209,6 @@ app.get("/search", function(req,res){
         doci = "Dentist";
     }
 
-    console.log(doci);
-    console.log(cty);
 
     Doctor.find({
         city: cty,
@@ -221,7 +217,6 @@ app.get("/search", function(req,res){
         if(err){
             console.log(err);
         } else {
-            console.log(doctors);
             res.render("results", { doctor: doctors});
         }
     })
@@ -248,10 +243,13 @@ app.listen(port, function () {
 
 //----------------- search -----------------//
 
-app.post("/booking", function(req,res){
-    console.log(username);
+app.get("/sugartesting", function(req,res){
+    res.render("sugartesting")
 })
 
+app.get("/home", function(req,res){
+    res.render("homepage");
+})
 
 //Cardiologist
 //General Physician
